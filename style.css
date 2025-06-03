@@ -1,0 +1,90 @@
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  z-index: 1000;
+}
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  :root {
+    --primary-color: #007bff;
+    --secondary-color: #f8f9fa;
+    --font-size-lg: 24px;
+    --font-size-md: 18px;
+  }
+  
+  /* Intro Section */
+  .intro {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .intro h2 {
+    font-size: var(--font-size-lg);
+  }
+  
+  .intro p {
+    font-size: var(--font-size-md);
+  }
+  .services {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .service {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .portfolio-item {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .relative-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #ddd;
+    margin: 20px auto;
+  }
+  
+  .absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff5733;
+    padding: 10px;
+    color: white;
+  }
